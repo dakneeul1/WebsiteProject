@@ -1,2 +1,2 @@
 # WebsiteProject
-The repo for my 3rd year website
+The repositary for my 3rd year website project.
