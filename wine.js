@@ -68,3 +68,6 @@ camera.id = 'scene1';
       {
          renderer.render(scene, camera);
       }
+
+      
+    
