@@ -41499,6 +41499,7 @@ function create_geometry_1(scene)
             specular: 0xFFFFFF
             });
          mesh = new THREE.Mesh(geometry, material);
+
          scene.add(mesh);
 
 }

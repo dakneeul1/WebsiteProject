@@ -6939,6 +6939,8 @@ function create_geometry_0(scene)
             specular: 0x890E56
             });
          mesh = new THREE.Mesh(geometry, material);
-         scene.add(mesh);
+        
+
+    scene.add(mesh);
 
 }
