@@ -10,43 +10,9 @@ h1{
     color:antiquewhite;
     text-align: center;
     margin-top:5%;
-    padding-bottom: 100px;
     font-family: 'Julius Sans One', sans-serif;
     
 
-}
-
-
-.nav1{
- position: absolute;
- width:150px;
- margin-left:35%;
-    
- margin-top:5%;
- z-index: 1;
- color:antiquewhite;
-    text-align: center;
-}
-
-.nav2{
- float:right;
- position: relative;
- margin-right:36%; 
- width:150px;
- margin-top:5%;
- z-index: 1;
- color:antiquewhite;
-
-}
-
-ul{
-    list-style-type: none;
-        font-family: 'Julius Sans One', sans-serif;
-    
-
-}
-ul li{
-    padding: 10px;
 }
 
 h2{
@@ -58,9 +24,394 @@ h2{
     margin-top:9%;
 
 }
+
+h3{
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+    text-decoration:underline;
+    
+}
+
+
+
+.spacer{
+    padding: 20px;
+}
+
+/**left nav menu*****************************/
+
+.nav1{
+ position: absolute;
+ width:200px;
+ margin-left:35%;
+ margin-top:5%;
+ z-index: 1;
+ color:antiquewhite;
+ text-align: center;
+ text-decoration: none;
+ font-size:20px;
+
+ 
+
+}
+
+
+.nav1 li a{
+-webkit-transition: all 0.4s ease-in-out;
+-moz-transition: all 0.4s ease-in-out;
+-o-transition: all 0.4s ease-in-out;
+-ms-transition: all 0.4s ease-in-out;
+transition: all 0.4s ease-in-out;
+    
+    
+    
+}
+
+
+.nav1 li a:hover{
+	color: #581514;
+    font-size: 35px;    
+}
+
+/**right nav menu*************************/
+
+.nav2{
+ float:right;
+ position: relative;
+ margin-right:36%; 
+ width:200px;
+    font-size:20px;
+ margin-top:5%;
+ z-index: 1;
+ color:antiquewhite;
+
+}
+
+
+/**Link styling******************************/
+
+a:link {
+    text-decoration: none;
+    color:antiquewhite;
+}
+
+a:visited {
+    text-decoration: none;
+    color:antiquewhite;
+}
+
+a:hover {
+    text-decoration: none;
+    color:antiquewhite;
+}
+
+a:active {
+    text-decoration: none;
+    color:antiquewhite;
+}
+
+
+
+
+ul{
+    list-style-type: none;
+        font-family: 'Julius Sans One', sans-serif;
+    
+
+}
+ul li{
+    padding: 10px;
+}
+
+
+
+/**Three.js wine glass canvas********************************************/
 canvas{
         position: relative;
         left:41%;
         top:10%;
     z-index: -1;
+}
+
+
+
+
+
+
+
+
+/**Menu Page************************************************************/
+.menucontainer{
+    background-color: antiquewhite;
+    border-radius:10px;
+    margin-left: auto;
+    margin-right:auto;
+    width:50%;
+    height:80%;
+}
+
+.foodcontainer{
+    float: left;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    width:45%;
+    height:80%;
+    margin-top:50px;
+    margin-left:20px;
+    
+}
+
+.drinkscontainer{
+    float: right;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    width:45%;
+    height:80%;
+    margin-top:50px;
+    margin-right:20px;
+    
+}
+
+.foodtitle{
+    position: relative;
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+
+}
+
+.drinkstitle{
+    position: relative;
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.fooditem{
+        font-family: 'Julius Sans One', sans-serif;
+        text-align: center;
+        font-size:15px;
+        padding-bottom: 15px;
+        
+}
+
+.fooddesc{
+    display: none;
+}
+
+.fooddesc p{
+    float:left;
+}
+
+
+/**makes the food item description visibile when hovered***************************/
+.fooditem:hover + .fooddesc {
+    font-family: 'Julius Sans One', sans-serif;
+    display:block;
+    position: absolute;
+    margin:auto;
+    background-color:#7D7C7C;
+    text-align: center;
+    color:antiquewhite;
+    border-radius: 10px;
+  
+    /* needed styles for the overlay ******************************/
+    z-index: 10; /* keep on top of other elements on the page */
+    box-shadow: 0 0 0 9999px rgba(0,0,0,0.5);
+}
+
+.allergen{
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+
+}
+
+/**Locations pageeeeee*************************************/
+
+.locationscontainer{
+    background-color: antiquewhite;
+    margin-left: auto;
+    margin-right:auto;
+    width:50%;
+    height:80%;
+}
+
+
+/***LOCATIONS TESTINGGGGG*******************/
+
+/**unordered list centered and in its parent remove list style*/
+.rb-grid {
+	list-style: none;
+	text-align: center;
+	margin: 0 auto;
+}
+
+/**list items fluid with + boxes*/
+.rb-grid li {
+	width: 24%;
+	height: 15em;
+	margin: 0.5%;
+	background: #8CC7DF;
+	color: #fff;
+	display: block;
+	float: left;
+	padding: 1.6em;
+	cursor: pointer;
+	position: relative;
+}
+/**grid sizesssssss*/
+.rb-grid li.rb-span-2 {
+	width: 49%;
+}
+
+.rb-grid li.rb-span-4 {
+	width: 99%;
+}
+
+/**grid titles*/
+.rb-grid li h3 {
+	font-size: 2.6em;
+	font-weight: 100;
+}
+
+
+/**probably wont need this but clima icons - could change to location icons???*/
+.rb-grid li[class^="icon-"]:before,
+.rb-grid li[class*=" icon-"]:before {
+	font-size: 10em;
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	line-height: 3;
+	opacity: 0.4;
+	text-align: right;
+	pointer-events: none;
+}
+
+/**temperature css probably change to street name or specific location*/
+.rb-temp {
+	display: block;
+	font-size: 2em;
+	opacity: 0.5;
+	transition: all 0.3s ease-in-out;
+}
+/**hover to make sub heading (temp) visible*/
+.rb-grid li:hover .rb-temp {
+	opacity: 1;
+}
+
+/**starting on the overlay panel----------------------------*/
+.rb-overlay {
+	opacity: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	transition: all 0.4s ease;
+	z-index: -1;
+	pointer-events: none;
+	cursor: default;
+}
+
+/**Overlay close butttonnnnn*/
+
+.rb-close {
+	position: absolute;
+	top: 0.4em;
+	right: 0.4em;
+	width: 2em;
+	height: 2em;
+	text-indent: -9000px;
+	cursor: pointer;
+	z-index: 1000;
+}
+
+.rb-close:before {
+	content: 'x';
+	font-weight: 100;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	font-size: 3em;
+	line-height: 0.6;
+	text-align: center;
+	text-indent: 0px;
+}
+
+/**Wrapper for the columns*/
+.rb-week {
+	width: 100%;
+	height: 100%;
+}
+
+.rb-week > div {
+	width: 10%;
+	height: 100%;
+	float: left;
+	position: relative;
+	padding: 3% 0;
+}
+
+.rb-week > div:first-child {
+	width: 30%;
+}
+
+.rb-week span {
+	padding: 5% 0;
+	font-size: 2em;
+	font-weight: 100;
+	display: block;
+	margin: auto 0;
+	height: 30%;
+	width: 100%;
+	line-height: 0.8;
+}
+
+.rb-week span.rb-city {
+	font-weight: 700;
+	padding: 1% 10%;
+	font-size: 1em;
+	line-height: 1.2;
+}
+
+.rb-week [class^="icon-"]:before {
+	font-size: 2.5em;
+	font-weight: normal;
+}
+
+.rb-week > div:first-child [class^="icon-"] {
+	opacity: 0.1;
+}
+
+/**LOCATIONS PAGE FOR SMALLER SCREEEEEENSSSSSSSSSSSSSSSSSSS*/
+
+@media screen and (max-width: 63.125em) {
+	
+	.rb-grid li,
+	.rb-grid li.rb-span-2,
+	.rb-grid li.rb-span-4 {
+		width: 100%;
+		height: 10em;
+		text-align: left;
+	}
+
+	.rb-grid li[class^="icon-"]:before,
+	.rb-grid li[class*=" icon-"]:before {
+		font-size: 6em;
+		left: auto;
+		right: 0;
+		line-height: 2.5;
+	}
+
+	.rb-grid li > div {
+		text-align: center;
+	}
 }
