@@ -171,7 +171,7 @@ canvas{
     border: 2px solid #000000;
     border-radius: 5px;
     width:85%;
-    height:80%;
+    
     margin-top:50px;
     margin-left:20px;
     
@@ -181,7 +181,6 @@ canvas{
     border: 2px solid #000000;
     border-radius: 5px;
     width:85%;
-    height:80%;
     margin-top:50px;
     margin-left:20px;
     
@@ -377,6 +376,16 @@ canvas{
 }
 
 
+ /*********image slider************/   
+  
+    
+    
+    
+    
+    
+    
+    
+    
 }
 
 
@@ -424,7 +433,7 @@ canvas{
 
     
     position: relative;
-    width:40%;
+    width:30%;
     display: block;
     margin: 0 auto;
     z-index: -1;
@@ -444,7 +453,6 @@ canvas{
     border: 2px solid #000000;
     border-radius: 5px;
     width:85%;
-    height:80%;
     margin-top:50px;
     margin-left:20px;
     
@@ -453,7 +461,7 @@ canvas{
 .drinkscontainer{
     border: 2px solid #000000;
     border-radius: 5px;
-    width:85%;
+    width:80%;
     height:80%;
     margin-top:50px;
     margin-left:20px;
@@ -544,7 +552,7 @@ canvas{
     margin-left: auto;
     margin-right:auto;
     width:70%;
-    height:80%;
+    height: 1000px;
 }
 
 .foodcontainer{
@@ -552,7 +560,7 @@ canvas{
     border: 2px solid #000000;
     border-radius: 5px;
     width:45%;
-    height:80%;
+    height: 800px;
     margin-top:50px;
     margin-left:20px;
     
@@ -563,7 +571,6 @@ canvas{
     border: 2px solid #000000;
     border-radius: 5px;
     width:45%;
-    height:80%;
     margin-top:50px;
     margin-right:20px;
     
@@ -586,6 +593,7 @@ canvas{
     display:block;
     position: absolute;
     margin:auto;
+    width: 40%;
     background-color:#E8E8E8;
     text-align: center;
     color:#52658f;
@@ -605,7 +613,6 @@ canvas{
 /**Locations pageeeeee*************************************/
 
 .locationscontainer{
-    border: 2px solid red;
     margin-left: auto;
     margin-right:auto;
     width:50%;
@@ -782,7 +789,6 @@ canvas{
     margin-left: auto;
     margin-right:auto;
     width:50%;
-    height:80%;
 }
 
 .foodcontainer{
@@ -790,7 +796,6 @@ canvas{
     border: 2px solid #000000;
     border-radius: 5px;
     width:45%;
-    height:80%;
     margin-top:50px;
     margin-left:20px;
     
@@ -801,7 +806,6 @@ canvas{
     border: 2px solid #000000;
     border-radius: 5px;
     width:45%;
-    height:80%;
     margin-top:50px;
     margin-right:20px;
     
