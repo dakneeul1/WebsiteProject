@@ -1,36 +1,43 @@
 <html>
-<head>
-    <link rel="stylesheet" type="text/css" href="styles.css"/>
-    
 
-    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Tangerine" rel="stylesheet">       
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
+
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Tangerine" rel="stylesheet">
     <script src="js/overlay.js"></script>
     <script src="js/googlemap.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbtQ__aBlvmDd5-_fHNOUTnsEOO8XNNoU&callback=initMap" async defer></script>
-    
+
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="js/navbar.js"></script>
 
 </head>
-    
+
 <body>
-    
+
     <div class="navigation responsive">
-<ul>
-	<li><a href="index.html">Home</a></li>
-	<li><a href="menu.html">Menu</a></li>
-	<li><a href="locations.html">Locations</a></li>
-	<li><a href="contact.html">Contact Us</a></li>
-    <li><a href="aboutcork.html">About us</a></li>
-	
-	<li class="hidden trigger" id="test"><a rel="nofollow" href="#">Show Menu</a></li>
-</ul>
-</div>
-<div class="mini-navigation hidden"></div>
-    
-    
-    
-    
+        <ul>
+            <li><a href="index.html">Home</a>
+            </li>
+            <li><a href="menu.html">Menu</a>
+            </li>
+            <li><a href="locations.html">Locations</a>
+            </li>
+            <li><a href="contact.html">Contact Us</a>
+            </li>
+            <li><a href="aboutcork.html">About us</a>
+            </li>
+
+            <li class="hidden trigger" id="test"><a rel="nofollow" href="#">Show Menu</a>
+            </li>
+        </ul>
+    </div>
+    <div class="mini-navigation hidden"></div>
+
+
+
+
     <h1> 
         <a href="index.html">
             <span class="char1">C</span>
@@ -38,169 +45,188 @@
             <span class="char3">R</span>
             <span class="char4">K</span>
         </a>
-    </h1>       
-    
-    
-    
-    
-    <div class="locationscontainer" >
-        
-  
-        
-            <div class ="grid1" style="cursor:pointer" onclick="openNav1()"><h1>Ipswich</h1></div>
+    </h1>
 
-    
-                    <div id="loc1" class="overlay">
-                                <a href="javascript:void(0)" id="btn" class="closebtn" onclick="closeNav1()">&times;</a>
-                                    <div class="overlay-content">
-                     
-                                            <div class="galleryimages">
-                    
-                                                    <img src="imgs/locations/ipswich/ipswich1.jpg" alt="ipswich1" id="gallery1"/>
-                    
-                                            </div>
-                                                                 <!--Next/back arrows for image gallery-->
-                                            <div class="arrows">
-                    
-                                                    <img src="imgs/locations/arrowback.png" alt ="Previous" onclick="backIpswich()" />
-                                                    <img src="imgs/locations/arrownext.png" alt = "next" onclick="nextIpswich()" />
 
-                                            </div> 
-                                            
-                                            <div class="locinformation">
-                                        
-                                            <p>123 Fake Street<br>Ipswich<br>IP3123<br>0123456789</p>
-                                        
-                                            
-                                            </div>
-                                            
-                                        <!--Google map API DIV ipswich-->
-                                        <div class="mapcontainer">  <div id="map" ></div> </div>
-                                           
-                                       
-                                           
-                                    </div>
-                        </div>
-        
-        
-        
-            <div class ="grid2" style="cursor:pointer" onclick="openNav2()"><h1>Colchester</h1></div>
 
-                <div id="loc2" class="overlay">
-                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav2()">&times;</a>
-                                <div class="overlay-content">
-                                            <div class="galleryimages">
-                    
-                                                    <img src="imgs/locations/colchester/colchester1.jpeg" alt="colchester1" id="gallery2"/>
-                    
-                                             </div>
-                                             <!--Next/back arrows for image gallery-->
 
-                                             <div class="arrows">
-                    
-                                                    <img src="imgs/locations/arrowback.png" alt ="Previous" onclick="backColchester()" />
-                                                    <img src="imgs/locations/arrownext.png" alt = "next" onclick="nextColchester()" />
+    <div class="locationscontainer">
 
-                                            </div> 
-                                    
-                                            <div class="locinformation">
-                                        
-                                            <p>123 Fake Street<br>Colchester<br>CE2123<br>0123456789</p>
-                                        
-                                            
-                                            </div>
-                                        <!--Google map API DIV colchester-->
 
-                                    <div class="mapcontainer"> <div id="map2" ></div> </div>
-    
-                        </div>
-                     </div>
-            
-        <div class ="grid3" style="cursor:pointer" onclick="openNav3()"><h1>Leicester</h1></div>
 
-                <div id="loc3" class="overlay">
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav3()">&times;</a>
-                        <div class="overlay-content">
-                           <div class="galleryimages">
-                    
-                                    <img src="imgs/locations/leicester/leicester1.jpeg" alt="leicester1" id="gallery3"/>
-                    
-                                </div>
-                                                                 <!--Next/back arrows for image gallery-->
-                                <div class="arrows">
-                    
-                                    <img src="imgs/locations/arrowback.png" alt ="Previous" onclick="backLeicester()" />
-                                    <img src="imgs/locations/arrownext.png" alt = "next" onclick="nextLeicester()" />
+        <div class="grid1" style="cursor:pointer" onclick="openNav1()">
+            <h1>Ipswich</h1>
+        </div>
 
-                                </div> 
-                            
-                                <div class="locinformation">
-                                        
-                                <p>123 Fake Street<br>Leicester<br>LE1123<br>0123456789</p>
-                                        
-                                            
-                                 </div>
-                                        <!--Google map API DIV leicester-->
 
-                            <div class="mapcontainer"> <div id="map3" ></div> </div>
-                            
-                        </div>
+        <div id="loc1" class="overlay">
+            <a href="javascript:void(0)" id="btn" class="closebtn" onclick="closeNav1()">&times;</a>
+            <div class="overlay-content">
+
+                <div class="galleryimages">
+
+                    <img src="imgs/locations/ipswich/ipswich1.jpg" alt="ipswich1" id="gallery1" />
+
                 </div>
-               
-        <div class ="grid4" style="cursor:pointer" onclick="openNav4()"><h1>London</h1></div>
+                <!--Next/back arrows for image gallery-->
+                <div class="arrows">
 
-                <div id="loc4" class="overlay">
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav4()">&times;</a>
-                        <div class="overlay-content">
-                     
-                                <div class="galleryimages">
-                    
-                                    <img src="imgs/locations/london/london1.jpeg" alt="london1" id="gallery4"/>
-                    
-                                </div>
-                                                                 <!--Next/back arrows for image gallery-->
-                                <div class="arrows">
-                                     
-                                    <img src="imgs/locations/arrowback.png" alt ="Previous" onclick="backLondon()" />
-                                    <img src="imgs/locations/arrownext.png" alt = "Next" onclick="nextLondon()" />
-                                     
-                                </div> 
-                            
-                                <div class="locinformation">
-                                            <p>123 Fake Street<br>London<br>Near Leicester Square<br>WC2H 123<br>0123456789</p>                                                                     
-                                 </div>
-                                                        
-                                     <!--Google map API DIV london-->
+                    <img src="imgs/locations/arrowback.png" alt="Previous" onclick="backIpswich()" />
+                    <img src="imgs/locations/arrownext.png" alt="next" onclick="nextIpswich()" />
 
-                            <div class="mapcontainer"> <div id="map4" ></div> </div>
-
-    
-                        </div>
                 </div>
-        
 
-                                       
-    
+                <div class="locinformation">
+
+                    <p>123 Fake Street
+                        <br>Ipswich
+                        <br>IP3123
+                        <br>0123456789</p>
+
+
+                </div>
+
+                <!--Google map API DIV ipswich-->
+                <div class="mapcontainer">
+                    <div id="map"></div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+
+        <div class="grid2" style="cursor:pointer" onclick="openNav2()">
+            <h1>Colchester</h1>
+        </div>
+
+        <div id="loc2" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav2()">&times;</a>
+            <div class="overlay-content">
+                <div class="galleryimages">
+
+                    <img src="imgs/locations/colchester/colchester1.jpeg" alt="colchester1" id="gallery2" />
+
+                </div>
+                <!--Next/back arrows for image gallery-->
+
+                <div class="arrows">
+
+                    <img src="imgs/locations/arrowback.png" alt="Previous" onclick="backColchester()" />
+                    <img src="imgs/locations/arrownext.png" alt="next" onclick="nextColchester()" />
+
+                </div>
+
+                <div class="locinformation">
+
+                    <p>123 Fake Street
+                        <br>Colchester
+                        <br>CE2123
+                        <br>0123456789</p>
+
+
+                </div>
+                <!--Google map API DIV colchester-->
+
+                <div class="mapcontainer">
+                    <div id="map2"></div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="grid3" style="cursor:pointer" onclick="openNav3()">
+            <h1>Leicester</h1>
+        </div>
+
+        <div id="loc3" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav3()">&times;</a>
+            <div class="overlay-content">
+                <div class="galleryimages">
+
+                    <img src="imgs/locations/leicester/leicester1.jpeg" alt="leicester1" id="gallery3" />
+
+                </div>
+                <!--Next/back arrows for image gallery-->
+                <div class="arrows">
+
+                    <img src="imgs/locations/arrowback.png" alt="Previous" onclick="backLeicester()" />
+                    <img src="imgs/locations/arrownext.png" alt="next" onclick="nextLeicester()" />
+
+                </div>
+
+                <div class="locinformation">
+
+                    <p>123 Fake Street
+                        <br>Leicester
+                        <br>LE1123
+                        <br>0123456789</p>
+
+
+                </div>
+                <!--Google map API DIV leicester-->
+
+                <div class="mapcontainer">
+                    <div id="map3"></div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="grid4" style="cursor:pointer" onclick="openNav4()">
+            <h1>London</h1>
+        </div>
+
+        <div id="loc4" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav4()">&times;</a>
+            <div class="overlay-content">
+
+                <div class="galleryimages">
+
+                    <img src="imgs/locations/london/london1.jpeg" alt="london1" id="gallery4" />
+
+                </div>
+                <!--Next/back arrows for image gallery-->
+                <div class="arrows">
+
+                    <img src="imgs/locations/arrowback.png" alt="Previous" onclick="backLondon()" />
+                    <img src="imgs/locations/arrownext.png" alt="Next" onclick="nextLondon()" />
+
+                </div>
+
+                <div class="locinformation">
+                    <p>123 Fake Street
+                        <br>London
+                        <br>Near Leicester Square
+                        <br>WC2H 123
+                        <br>0123456789</p>
+                </div>
+
+                <!--Google map API DIV london-->
+
+                <div class="mapcontainer">
+                    <div id="map4"></div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+
     </div>
     <div class="locationsfooter">
-    *Click the locations for more info
-    
-    </div> 
-    
-    
-    
-    
-                                        
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+        *Click the locations for more info
+
+    </div>
+
+
+
+
+
 </body>
+
 </html>
