@@ -1,1079 +1,834 @@
 @media screen and (min-width: 1px) {
-
-body{
-    	position: relative;
-        margin: auto;
-            width: 100%;
-            background: #F7F5E6;
-        }
-
-h1 {
-    color:#333A56;
-    text-align: center;
-    margin-top:5%;
-    font-family: 'Julius Sans One', sans-serif;
-    
-
-}
-
-h2{
-    color:#333A56;
-    text-align: center;
-    font-family: 'Tangerine', cursive;
-    font-size: 38px;
-    margin-bottom: 10px;
-
-}
-
-h3{
-    text-align: center;
-    font-family: 'Julius Sans One', sans-serif;
-    text-decoration:underline;
-    
-}
-
-
-
-.spacer{
-    padding: 20px;
-}
-
-   
-.navigation ul {
-	height:40px; 
-	padding:0 10px 0 0;
-	border-radius:4px;
-    width: 100%;
-    margin: auto;
-	
-}
-    
-.navigation ul li {
-	float:left;
-    margin-left: 5%;
-	list-style:none;		 
-	padding:10px 20px 10px 20px;
-    
-}
-
-
-.hidden {
-	display:none;
-}
-
-.mini-navigation {
-	border-left:1px solid #ccc;
-	border-bottom:1px solid #ccc;
-	border-right:1px solid #ccc;
-	padding:0 0 0 0;
-	margin-left:5px;
-	margin-right:5px;
-	border-radius:0 0 8px 8px;
-}
-.mini-navigation ul {
-	padding:0 0 0 0;
-	margin:0 0 0 0;
-}
-.mini-navigation ul li {
-	margin:0 0 0 0;
-	padding:10px 18px 12px 23px;
-	list-style:none;
-	border-bottom:1px solid #ebebeb;
-}
-
-.mini-navigation ul li a {
-	text-decoration:none;
-	font-size:12px;
-	color:#1e7759;
-}
-
-
-@media (max-width: 796px) {
-	 .navigation.responsive ul li {
-		display:none;
-
-    }
-	 .navigation.responsive ul li.hidden {
-		display:block;
-
-	 }
-	 .navigation.responsive ul li.hidden:hover {
-		border-radius:4px 0 0 4px;
-	 }
-	 .navigation.responsive ul li.hidden a{
-		background:url('menu.png')no-repeat 0 -5px;
-		padding-left:24px;
-	}
-	
-}
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-/**left nav menu*****************************/
-
-.nav1{
- width:400px;
- z-index: 1;
- color:#333A56;
- text-align: center;
- text-decoration: none;
- font-size:20px;
- margin: 0 auto;
- 
-
-}
- 
-.nav1 li{
-        display: inline;
-}
-
-.nav1 li a{
--webkit-transition: all 0.4s ease-in-out;
--moz-transition: all 0.4s ease-in-out;
--o-transition: all 0.4s ease-in-out;
--ms-transition: all 0.4s ease-in-out;
-transition: all 0.4s ease-in-out;
-    
-    
-    
-}
-
-
-.nav1 li a:hover{
-	color: #581514;
-    font-size: 25px;    
-}
-
-/**right nav menu*************************/
-
-.nav2{
- width:480px;
-font-size:20px;
- z-index: 1;
- color:#333A56;
-margin: 0 auto;
-    text-align: center;
-
-
-}
-
-.nav2 li {
-        display: inline;
-    }
-    
-    
-.nav2 li a{
--webkit-transition: all 0.4s ease-in-out;
--moz-transition: all 0.4s ease-in-out;
--o-transition: all 0.4s ease-in-out;
--ms-transition: all 0.4s ease-in-out;
-transition: all 0.4s ease-in-out;
-    
-    
-    
-}
-
-.nav2 li a:hover{
-	color: #581514;
-    font-size: 25px;    
-}
-
-/**Link styling******************************/
-
-a:link {
-    text-decoration: none;
-    color:#333A56;
-}
-
-a:visited {
-    text-decoration: none;
-    color:#333A56;
-}
-
-a:hover {
-    text-decoration: none;
-    color:#333A56;
-}
-
-a:active {
-    text-decoration: none;
-    color:#333A56;
-}
-
-
-
-ul{
-    list-style-type: none;
-        font-family: 'Julius Sans One', sans-serif;
-    
-
-}
-ul li{
-    padding: 10px;
-}
-
-
-
-/**Three.js wine glass canvas********************************************/
-canvas{
-    margin:0 auto;
-    display: block;
-    width:200px;
-    z-index: -1;
-}
-
-
-
-
-
-
-
-
-/**Menu Page****/
-.menucontainer{
-    background-color: antiquewhite;
-    border-radius:10px;
-    margin-left: auto;
-    margin-right:auto;
-    width:90%;
-}
-
-.foodcontainer{
-    border: 2px solid #000000;
-    border-radius: 5px;
-    width:85%;
-    
-    margin-top:50px;
-    margin-left:20px;
-    
-}
-
-.drinkscontainer{
-    border: 2px solid #000000;
-    border-radius: 5px;
-    width:85%;
-    margin-top:50px;
-    margin-left:20px;
-    
-}
-
-.foodtitle{
-    position: relative;
-    text-align: center;
-    font-family: 'Julius Sans One', sans-serif;
-    font-size: 38px;
-    font-weight: bold;
-
-}
-
-.drinkstitle{
-    position: relative;
-    text-align: center;
-    font-family: 'Julius Sans One', sans-serif;
-    font-size: 38px;
-    font-weight: bold;
-}
-
-.fooditem{
-        font-family: 'Julius Sans One', sans-serif;
-        text-align: center;
-        font-size:15px;
-        padding-bottom: 15px;
-        
-        
-}
-
-.fooddesc{
-    display: none;
-    
-    
-}
-
-.fooddesc p{
-    float:left;
-}
-
-
-/**makes the food item description visibile when hovered**/
-.fooditem:hover + .fooddesc {
-    font-family: 'Julius Sans One', sans-serif;
-    display:block;
-    width: 80%;
-    margin:auto;
-    background-color:#E8E8E8;
-    text-align: center;
-    color:#52658f;
-    border-radius: 10px;
-   
-
-  
-    /* needed styles for the overlay ***/
-    z-index: 10; /* keep on top of other elements on the page */
-    box-shadow: 0 0 0 9999px rgba(0,0,0,0.5);
-}
-
-.allergen{
-    text-align: center;
-    font-family: 'Julius Sans One', sans-serif;
-
-}
-
-/**Locations page***/
-
-.locationscontainer{
-    margin-left: auto;
-    margin-right:auto;
-    width:85%;
-    height:60%;
-}
-
-.locationscontainer p{
-        font-family: 'Julius Sans One', sans-serif;
-        text-align: center;
-        font-size: 20px;
-        font-weight: bold;
-        margin-top:5%;
-
-}
-/**All of the overlay css thingssss*/
-.overlay {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.9);
-    overflow-x: hidden;
-    transition: 0.5s;
-}
-
-.overlay-content {
-    position: relative;
-    top: 10%;
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
-}
-
-.galleryimages img{
-    width:400px;
-    
-}
-    
-.arrows img{
-     height:30px;  
-     padding: 5px;
-}
-    
-.locinformation{
-    margin: auto;
-    margin-top:20px;
-    width:50%;
-    border: 2px solid grey;
-    border-radius: 10px;
-    text-align: center;
-    color:antiquewhite;
- }
-
-.overlay a {
-    padding: 8px;
-    text-decoration: none;
-    font-size: 36px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-}
-
-.overlay a:hover, .overlay a:focus {
-    color: #f1f1f1;
-}
-
-.overlay .closebtn {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
-}
-
-@media screen and (max-height: 450px) {
-  .overlay a {font-size: 20px}
-  .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-  }
-}
-
-/** Google maps**/
-#map{
-    
-    margin-right: 5%;
-    width:100%;
-    height:100%;
-    background-color: grey;
-    } 
-#map2{
-    margin-right: 5%;
-    width:100%;
-    height:100%;
-    background-color: grey;
-    } 
-    
-#map3{
-    margin-right: 5%;
-    width:100%;
-    height:100%;
-    background-color: grey;
-    }
-    
-#map4{
-    margin-right: 5%;
-    width:100%;
-    height:100%;
-    background-color: grey;
-    }
-    
-.mapcontainer {
-    margin: auto;
-    padding: 2%;
-    position: relative;
-    width:400px;
-    height:200px;
-        
-    }
-    
-/**Styling for the location boxes*/
-
-.grid1{
-    margin:0 auto;
-    border: 1px solid silver;
-    background-color: #E8E8E8;
-    width: 75%;
-    height: 15%;
-    border-radius: 50px;
-    
-}
-
-    .grid1 p{
-        display: none;
-    }
-.grid2{
-    margin:0 auto;
-    border: 1px solid silver;
-    background-color:#E8E8E8;
-    width: 75%;
-    height: 15%;
-    border-radius: 50px;
-    margin-top:5%;
-
-}
-
-    .grid2 p{
-        display: none;
-    }
-.grid3{
-    margin:0 auto;
-    border: 1px solid silver;
-    background-color:#E8E8E8;
-    width: 75%;
-    height: 15%;
-    border-radius: 50px;
-    margin-top:5%;
-
-}
-    .grid3 p{
-        display: none;
-    }
-.grid4{
-    margin:0 auto;
-    border: 1px solid silver;
-    background-color:#E8E8E8;
-    width: 75%;
-    height: 15%;
-    border-radius: 50px;
-    margin-top:5%;
-
-}
-    .grid4 p{
-        display: none;
-    }
-
-.locationsfooter{
-    text-align: center;
-}
-
-/**Contact us css*/
-
-.contactcontainer{
-    background-color: antiquewhite;
-    border-radius:10px;
-    margin-left: auto;
-    margin-right:auto;
-    width:90%;
-}
-
-.contactcontainer p{
-        text-align: center;
-        font-family: 'Julius Sans One', sans-serif;
-
-    }
-
-
-.contactform{
-    font-family: 'Julius Sans One', sans-serif;
-    width: 80%;
-    padding: 30px;
-    margin: 50px auto;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
-    -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
-    -webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);
-    text-align: center;
-
-}
-
-.contactform input[type="text"],
-.contactform input[type="email"],
-.contactform textarea
-{
-    
-    outline: none;
-    display: block;
-    width: 90%;
-    padding: 7px;
-    border: none;
-    border-bottom: 1px solid #ddd;
-    background: transparent;
-    font-family: 'Julius Sans One', sans-serif;
-    height: 45px;
-}
-
-
-.contactform input[type="button"]{
-    background-color:darkgray;
-    cursor: pointer;
-    color: #FFFFFF;
-    font-family: 'Julius Sans One', sans-serif;
-    font-size: 14px;
-    
-    padding: 8px 18px;
-    text-decoration: none;
-    text-transform: uppercase;
-
-}
-    
-.twitter{
-        width:80%;
-        height: 300px;
-        margin: auto;
-}
-
-
-
-@media screen and (min-width: 640px) {
-
-
-/**left nav menu*****************************/
-
-.nav1{
- width:400px;
- z-index: 1;
- color:#333A56;
- text-align: center;
- text-decoration: none;
- font-size:20px;
- margin: 0 auto;
- 
-
-}
- 
-
-/**right nav menu*************************/
-
-.nav2{
-    width:480px;
-    font-size:20px;
-    z-index: 1;
-    color:#333A56;
-    margin: 0 auto;
-    text-align: center;
-}
-
-    
-/**Three.js wine glass canvas********************************************/
-canvas{
-
-    
-    position: relative;
-    width:30%;
-    display: block;
-    margin: 0 auto;
-    z-index: -1;
-}
-
-
-/**Menu Page************************************************************/
-.menucontainer{
-    background-color: antiquewhite;
-    border-radius:10px;
-    margin-left: auto;
-    margin-right:auto;
-    width:90%;
-}
-
-.foodcontainer{
-    border: 2px solid #000000;
-    border-radius: 5px;
-    width:85%;
-    margin-top:50px;
-    margin-left:20px;
-    
-}
-
-.drinkscontainer{
-    border: 2px solid #000000;
-    border-radius: 5px;
-    width:80%;
-    margin-top:50px;
-    margin-left:20px;
-    
-}
-
-
-
-/**Locations pageeeeee*************************************/
-
-.locationscontainer{
-    margin-left: auto;
-    margin-right:auto;
-    width:85%;
-    height:60%;
-}
-
-.locationscontainer p{
-        font-family: 'Julius Sans One', sans-serif;
-        text-align: center;
-        font-size: 20px;
-        font-weight: bold;
-        margin-top:5%;
-
-}
-
-.galleryimages img{
-    width:600px;
-    
-}
-
-.arrows img{
-     height:30px;  
-     padding: 10px;
-}
-    
-.locinformation{
-    float: left;
-    margin-top:20px;
-    width:50%;
-    border: 2px solid grey;
-    border-radius: 10px;
-    text-align: center;
-    color:antiquewhite;
- }
-
-#map{
-    margin-right: 5%;
-    width:100%;
-    height:100%;
-    background-color: grey;
-    } 
-.mapcontainer{
-    float:right;
-    margin-right: 3%;
-    padding: 0;
-    position: relative;
-    width:280px;
-    height:200px;
-        
-    }
-
-
-
-@media screen and (min-width: 1024px) {
-    
-
-/**left nav menu*****************************/
-
-.nav1{
- position: absolute;
- width:220px;
- height:500px;
- margin-top:5%;
- z-index: 1;
- color:#333A56;
- text-align: center;
- text-decoration: none;
- font-size:25px;
- margin-left: 18%;
- 
-
-}
-   
-
-.nav1 li a:hover{
-	color: #581514;
-    font-size: 30px;    
-}
-
-/**right nav menu*************************/
-
-.nav2{
- float:right;
- position: relative;
- margin-right:18%; 
- width:250px;
-    font-size:25px;
- margin-top:5%;
- z-index: 1;
- color:#333A56;
-
-}
-
-.nav2 li a:hover{
-	color: #581514;
-    font-size: 30px;    
-}
-
-
-
-/**Three.js wine glass canvas********************************************/
-canvas{
-    position: relative;
-    width:20%;
-    margin-left: 40%;
-    z-index: -1;
-}
-
-
-
-/**Menu Page************************************************************/
-.menucontainer{
-    background-color: antiquewhite;
-    border-radius:10px;
-    margin-left: auto;
-    margin-right:auto;
-    width:70%;
-    height: 1000px;
-}
-
-.foodcontainer{
-    float: left;
-    border: 2px solid #000000;
-    border-radius: 5px;
-    width:45%;
-    height: 800px;
-    margin-top:50px;
-    margin-left:20px;
-    
-}
-
-.drinkscontainer{
-    float: right;
-    border: 2px solid #000000;
-    border-radius: 5px;
-    width:45%;
-    margin-top:50px;
-    margin-right:20px;
-    
-}
-
-
-
-
-/**makes the food item description visibile when hovered***************************/
-.fooditem:hover + .fooddesc {
-    font-family: 'Julius Sans One', sans-serif;
-    display:block;
-    position: absolute;
-    margin:auto;
-    width: 40%;
-    background-color:#E8E8E8;
-    text-align: center;
-    color:#52658f;
-    border-radius: 10px;
-  
-    /* needed styles for the overlay ******************************/
-    z-index: 10; /* keep on top of other elements on the page */
-    box-shadow: 0 0 0 9999px rgba(0,0,0,0.5);
-}
-
-.allergen{
-    text-align: center;
-    font-family: 'Julius Sans One', sans-serif;
-
-}
-
-/**Locations pageeeeee*************************************/
-
-
-
-.galleryimages img{
-    width:700px;
-    
-}
-    
-
-.locinformation{
-    float:left;
-    width:40%;
-    margin-left:5%;
-    border: 2px solid grey;
-    border-radius: 10px;
-    text-align: center;
-    color:antiquewhite;
- }
-    
-#map{
-    margin-right: 5%;
-    width:100%;
-    height:100%;
-    background-color: grey;
-    } 
-
-.mapcontainer{
-    float:right;
-    margin-right: 8%;
-    padding: 0;
-    position: relative;
-    width:400px;
-    height:200px;
-        
-    }
-
-
-
-/**Styling for the location boxes*/
-
-.grid1{
-    float:left;
-    border: 1px solid silver;
-    background-color: #E8E8E8;
-    width: 45%;
-    height: 25%;
-    border-radius: 50px;
-    
-    
-}
-
-.grid2{
-    float:right;
-    border: 1px solid silver;
-    background-color:#E8E8E8;
-    width: 45%;
-    height: 25%;
-    border-radius: 50px;
-    margin-top:0px;
-
-}
-
-.grid3{
-    float:left;
-    border: 1px solid silver;
-    background-color:#E8E8E8;
-    width: 45%;
-    height: 25%;
-    border-radius: 50px;
-    margin-top:5%;
-
-}
-
-.grid4{
-    float:right;
-    border: 1px solid silver;
-    background-color:#E8E8E8;
-    width: 45%;
-    height: 24%;
-    border-radius: 50px;
-    margin-top:5%;
-
-}
-    .contactcontainer{
-        height:100%;
-    }
-    
-    .contactform{
-        width:45%;
-        height: 300px;
-        float:left;
-        margin-left: 1%;
-    }
-    
-    .twitter{
-        width:45%;
-        float: right;
-        margin-right: 1%;
-        margin-top:50px;
-    }
-    
-    
-}
-
-
-
-@media screen and (min-width: 1680px) {
-
-/**left nav menu*****************************/
-
-.nav1{
- position: absolute;
- width:200px;
- margin-left:25%;
- margin-top:5%;
- z-index: 1;
- color:#333A56;
- text-align: center;
- text-decoration: none;
-
- 
-
-}
-
-/**right nav menu*************************/
-
-.nav2{
- float:right;
- position: relative;
- margin-right:25%; 
- width:250px;
- margin-top:5%;
- z-index: 1;
- color:#333A56;
-
-}
-
-
-
-
-/**Three.js wine glass canvas********************************************/
-canvas{
+    body {
         position: relative;
-   width: 20%;
-    margin-left: 40%;
-    z-index: -1;
-}
-
-
-
-/**Menu Page************************************************************/
-.menucontainer{
-    background-color: antiquewhite;
-    border-radius:10px;
-    margin-left: auto;
-    margin-right:auto;
-    width:50%;
-}
-
-.foodcontainer{
-    float: left;
-    border: 2px solid #000000;
-    border-radius: 5px;
-    width:45%;
-    margin-top:50px;
-    margin-left:20px;
-    
-}
-
-.drinkscontainer{
-    float: right;
-    border: 2px solid #000000;
-    border-radius: 5px;
-    width:45%;
-    margin-top:50px;
-    margin-right:20px;
-    
-}
-    
-.overlay-content {
-    position: relative;
-    top:5%;
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
-}
-
-.galleryimages img{
-    width:800px;
-    
-}
-
-.arrows img{
-     height:40px;  
-     padding: 7px;
-}
-    
-.locinformation{
-    margin-left:5%;
-    margin-top:20px;
-    width:40%;
-    border: 2px solid grey;
-    border-radius: 10px;
-    text-align: center;
-    color:antiquewhite;
- }
-    
-#map{
-    margin-right: 5%;
-    width:100%;
-    height:100%;
-    background-color: grey;
-    } 
-.mapcontainer{
-    float:right;
-    margin-right: 3%;
-    padding: 0;
-    position: relative;
-    width:680px;
-    height:200px;
-        
+        margin: auto;
+        width: 100%;
+        background: #F7F5E6;
     }
-
+    h1 {
+        color: #333A56;
+        text-align: center;
+        margin-top: 5%;
+        font-family: 'Julius Sans One', sans-serif;
+    }
+    h2 {
+        color: #333A56;
+        text-align: center;
+        font-family: 'Tangerine', cursive;
+        font-size: 38px;
+        margin-bottom: 10px;
+    }
+    h3 {
+        text-align: center;
+        font-family: 'Julius Sans One', sans-serif;
+        text-decoration: underline;
+    }
+    .spacer {
+        padding: 20px;
+    }
+    .navigation ul {
+        height: 40px;
+        padding: 0 10px 0 0;
+        border-radius: 4px;
+        width: 100%;
+        margin: auto;
+    }
+    .navigation ul li {
+        float: left;
+        margin-left: 5%;
+        list-style: none;
+        padding: 10px 20px 10px 20px;
+    }
+    .hidden {
+        display: none;
+    }
+    .mini-navigation {
+        border-left: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        border-right: 1px solid #ccc;
+        padding: 0 0 0 0;
+        margin-left: 5px;
+        margin-right: 5px;
+        border-radius: 0 0 8px 8px;
+    }
+    .mini-navigation ul {
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+    }
+    .mini-navigation ul li {
+        margin: 0 0 0 0;
+        padding: 10px 18px 12px 23px;
+        list-style: none;
+        border-bottom: 1px solid #ebebeb;
+    }
+    .mini-navigation ul li a {
+        text-decoration: none;
+        font-size: 12px;
+        color: #1e7759;
+    }
+    @media (max-width: 796px) {
+        .navigation.responsive ul li {
+            display: none;
+        }
+        .navigation.responsive ul li.hidden {
+            display: block;
+        }
+        .navigation.responsive ul li.hidden:hover {
+            border-radius: 4px 0 0 4px;
+        }
+        .navigation.responsive ul li.hidden a {
+            background: url('menu.png')no-repeat 0 -5px;
+            padding-left: 24px;
+        }
+    }
+    /**left nav menu*****************************/
+    
+    .nav1 {
+        width: 400px;
+        z-index: 1;
+        color: #333A56;
+        text-align: center;
+        text-decoration: none;
+        font-size: 20px;
+        margin: 0 auto;
+    }
+    .nav1 li {
+        display: inline;
+    }
+    .nav1 li a {
+        -webkit-transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        -o-transition: all 0.4s ease-in-out;
+        -ms-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+    }
+    .nav1 li a:hover {
+        color: #581514;
+        font-size: 25px;
+    }
+    /**right nav menu*************************/
+    
+    .nav2 {
+        width: 480px;
+        font-size: 20px;
+        z-index: 1;
+        color: #333A56;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .nav2 li {
+        display: inline;
+    }
+    .nav2 li a {
+        -webkit-transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        -o-transition: all 0.4s ease-in-out;
+        -ms-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+    }
+    .nav2 li a:hover {
+        color: #581514;
+        font-size: 25px;
+    }
+    /**Link styling******************************/
+    
+    a:link {
+        text-decoration: none;
+        color: #333A56;
+    }
+    a:visited {
+        text-decoration: none;
+        color: #333A56;
+    }
+    a:hover {
+        text-decoration: none;
+        color: #333A56;
+    }
+    a:active {
+        text-decoration: none;
+        color: #333A56;
+    }
+    ul {
+        list-style-type: none;
+        font-family: 'Julius Sans One', sans-serif;
+    }
+    ul li {
+        padding: 10px;
+    }
+    /**Three.js wine glass canvas***/
+    
+    canvas {
+        margin: 0 auto;
+        display: block;
+        width: 200px;
+        z-index: -1;
+    }
+    /**Menu Page****/
+    
+    .menucontainer {
+        background-color: antiquewhite;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+    .foodcontainer {
+        border: 2px solid #000000;
+        border-radius: 5px;
+        width: 85%;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    .drinkscontainer {
+        border: 2px solid #000000;
+        border-radius: 5px;
+        width: 85%;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    .foodtitle {
+        position: relative;
+        text-align: center;
+        font-family: 'Julius Sans One', sans-serif;
+        font-size: 38px;
+        font-weight: bold;
+    }
+    .drinkstitle {
+        position: relative;
+        text-align: center;
+        font-family: 'Julius Sans One', sans-serif;
+        font-size: 38px;
+        font-weight: bold;
+    }
+    .fooditem {
+        font-family: 'Julius Sans One', sans-serif;
+        text-align: center;
+        font-size: 15px;
+        padding-bottom: 15px;
+    }
+    .fooddesc {
+        display: none;
+    }
+    .fooddesc p {
+        float: left;
+    }
+    /**makes the food item description visibile when hovered**/
+    
+    .fooditem:hover + .fooddesc {
+        font-family: 'Julius Sans One', sans-serif;
+        display: block;
+        width: 80%;
+        margin: auto;
+        background-color: #E8E8E8;
+        text-align: center;
+        color: #52658f;
+        border-radius: 10px;
+        /* needed styles for the overlay ***/
+        
+        z-index: 10;
+        /* keep on top of other elements on the page */
+        
+        box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.5);
+    }
+    .allergen {
+        text-align: center;
+        font-family: 'Julius Sans One', sans-serif;
+    }
+    /**Locations page***/
+    
+    .locationscontainer {
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+        height: 60%;
+    }
+    .locationscontainer p {
+        font-family: 'Julius Sans One', sans-serif;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 5%;
+    }
+    /**All of the overlay css thingssss*/
+    
+    .overlay {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.9);
+        overflow-x: hidden;
+        transition: 0.5s;
+    }
+    .overlay-content {
+        position: relative;
+        top: 10%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .galleryimages img {
+        width: 400px;
+    }
+    .arrows img {
+        height: 30px;
+        padding: 5px;
+    }
+    .locinformation {
+        margin: auto;
+        margin-top: 20px;
+        width: 50%;
+        border: 2px solid grey;
+        border-radius: 10px;
+        text-align: center;
+        color: antiquewhite;
+    }
+    .overlay a {
+        padding: 8px;
+        text-decoration: none;
+        font-size: 36px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+    .overlay a:hover,
+    .overlay a:focus {
+        color: #f1f1f1;
+    }
+    .overlay .closebtn {
+        position: absolute;
+        top: 20px;
+        right: 45px;
+        font-size: 60px;
+    }
+    @media screen and (max-height: 450px) {
+        .overlay a {
+            font-size: 20px
+        }
+        .overlay .closebtn {
+            font-size: 40px;
+            top: 15px;
+            right: 35px;
+        }
+    }
+    /** Google maps**/
+    
+    #map {
+        margin-right: 5%;
+        width: 100%;
+        height: 100%;
+        background-color: grey;
+    }
+    #map2 {
+        margin-right: 5%;
+        width: 100%;
+        height: 100%;
+        background-color: grey;
+    }
+    #map3 {
+        margin-right: 5%;
+        width: 100%;
+        height: 100%;
+        background-color: grey;
+    }
+    #map4 {
+        margin-right: 5%;
+        width: 100%;
+        height: 100%;
+        background-color: grey;
+    }
+    .mapcontainer {
+        margin: auto;
+        padding: 2%;
+        position: relative;
+        width: 400px;
+        height: 200px;
+    }
+    /**Styling for the location boxes*/
+    
+    .grid1 {
+        margin: 0 auto;
+        border: 1px solid silver;
+        background-color: #E8E8E8;
+        width: 75%;
+        height: 15%;
+        border-radius: 50px;
+    }
+    .grid1 p {
+        display: none;
+    }
+    .grid2 {
+        margin: 0 auto;
+        border: 1px solid silver;
+        background-color: #E8E8E8;
+        width: 75%;
+        height: 15%;
+        border-radius: 50px;
+        margin-top: 5%;
+    }
+    .grid2 p {
+        display: none;
+    }
+    .grid3 {
+        margin: 0 auto;
+        border: 1px solid silver;
+        background-color: #E8E8E8;
+        width: 75%;
+        height: 15%;
+        border-radius: 50px;
+        margin-top: 5%;
+    }
+    .grid3 p {
+        display: none;
+    }
+    .grid4 {
+        margin: 0 auto;
+        border: 1px solid silver;
+        background-color: #E8E8E8;
+        width: 75%;
+        height: 15%;
+        border-radius: 50px;
+        margin-top: 5%;
+    }
+    .grid4 p {
+        display: none;
+    }
+    .locationsfooter {
+        text-align: center;
+    }
+    /**Contact us css*/
+    
+    .contactcontainer {
+        background-color: antiquewhite;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+    .contactcontainer p {
+        text-align: center;
+        font-family: 'Julius Sans One', sans-serif;
+    }
+    .contactform {
+        font-family: 'Julius Sans One', sans-serif;
+        width: 80%;
+        padding: 30px;
+        margin: 50px auto;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+        -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+        -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+        text-align: center;
+    }
+    .contactform input[type="text"],
+    .contactform input[type="email"],
+    .contactform textarea {
+        outline: none;
+        display: block;
+        width: 90%;
+        padding: 7px;
+        border: none;
+        border-bottom: 1px solid #ddd;
+        background: transparent;
+        font-family: 'Julius Sans One', sans-serif;
+        height: 45px;
+    }
+    .contactform input[type="button"] {
+        background-color: darkgray;
+        cursor: pointer;
+        color: #FFFFFF;
+        font-family: 'Julius Sans One', sans-serif;
+        font-size: 14px;
+        padding: 8px 18px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .twitter {
+        width: 80%;
+        height: 300px;
+        margin: auto;
+    }
+    .rating {
+        unicode-bidi: bidi-override;
+        direction: rtl;
+        text-align: center;
+    }
+    .rating > span {
+        display: inline-block;
+        position: relative;
+        width: 1.1em;
+    }
+    .rating > span:hover:before,
+    .rating > span:hover ~ span:before {
+        content: "\2605";
+        position: absolute;
+    }
+    @media screen and (min-width: 640px) {
+        /**left nav menu*****************************/
+        
+        .nav1 {
+            width: 400px;
+            z-index: 1;
+            color: #333A56;
+            text-align: center;
+            text-decoration: none;
+            font-size: 20px;
+            margin: 0 auto;
+        }
+        /**right nav menu*************************/
+        
+        .nav2 {
+            width: 480px;
+            font-size: 20px;
+            z-index: 1;
+            color: #333A56;
+            margin: 0 auto;
+            text-align: center;
+        }
+        /**Three.js wine glass canvas********************************************/
+        
+        canvas {
+            position: relative;
+            width: 30%;
+            display: block;
+            margin: 0 auto;
+            z-index: -1;
+        }
+        /**Menu Page************************************************************/
+        
+        .menucontainer {
+            background-color: antiquewhite;
+            border-radius: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 90%;
+        }
+        .foodcontainer {
+            border: 2px solid #000000;
+            border-radius: 5px;
+            width: 85%;
+            margin-top: 50px;
+            margin-left: 20px;
+        }
+        .drinkscontainer {
+            border: 2px solid #000000;
+            border-radius: 5px;
+            width: 80%;
+            margin-top: 50px;
+            margin-left: 20px;
+        }
+        /**Locations page**/
+        
+        .locationscontainer {
+            margin-left: auto;
+            margin-right: auto;
+            width: 85%;
+            height: 60%;
+        }
+        .locationscontainer p {
+            font-family: 'Julius Sans One', sans-serif;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 5%;
+        }
+        .galleryimages img {
+            width: 600px;
+        }
+        .arrows img {
+            height: 30px;
+            padding: 10px;
+        }
+        .locinformation {
+            float: left;
+            margin-top: 20px;
+            width: 50%;
+            border: 2px solid grey;
+            border-radius: 10px;
+            text-align: center;
+            color: antiquewhite;
+        }
+        #map {
+            margin-right: 5%;
+            width: 100%;
+            height: 100%;
+            background-color: grey;
+        }
+        .mapcontainer {
+            float: right;
+            margin-right: 3%;
+            padding: 0;
+            position: relative;
+            width: 280px;
+            height: 200px;
+        }
+        @media screen and (min-width: 1024px) {
+            /**left nav menu**/
+            
+            .nav1 {
+                position: absolute;
+                width: 220px;
+                height: 500px;
+                margin-top: 5%;
+                z-index: 1;
+                color: #333A56;
+                text-align: center;
+                text-decoration: none;
+                font-size: 25px;
+                margin-left: 18%;
+            }
+            .nav1 li a:hover {
+                color: #581514;
+                font-size: 30px;
+            }
+            /**right nav menu**/
+            
+            .nav2 {
+                float: right;
+                position: relative;
+                margin-right: 18%;
+                width: 250px;
+                font-size: 25px;
+                margin-top: 5%;
+                z-index: 1;
+                color: #333A56;
+            }
+            .nav2 li a:hover {
+                color: #581514;
+                font-size: 30px;
+            }
+            /**Three.js wine glass canvas**/
+            
+            canvas {
+                position: relative;
+                width: 20%;
+                margin-left: 40%;
+                z-index: -1;
+            }
+            /**Menu Page**/
+            
+            .menucontainer {
+                background-color: antiquewhite;
+                border-radius: 10px;
+                margin-left: auto;
+                margin-right: auto;
+                width: 70%;
+                height: 1000px;
+            }
+            .foodcontainer {
+                float: left;
+                border: 2px solid #000000;
+                border-radius: 5px;
+                width: 45%;
+                height: 800px;
+                margin-top: 50px;
+                margin-left: 20px;
+            }
+            .drinkscontainer {
+                float: right;
+                border: 2px solid #000000;
+                border-radius: 5px;
+                width: 45%;
+                margin-top: 50px;
+                margin-right: 20px;
+            }
+            /**makes the food item description visibile when hovered**/
+            
+            .fooditem:hover + .fooddesc {
+                font-family: 'Julius Sans One', sans-serif;
+                display: block;
+                position: absolute;
+                margin: auto;
+                width: 40%;
+                background-color: #E8E8E8;
+                text-align: center;
+                color: #52658f;
+                border-radius: 10px;
+                /* needed styles for the overlay **/
+                
+                z-index: 10;
+                /* keep on top of other elements on the page */
+                
+                box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.5);
+            }
+            .allergen {
+                text-align: center;
+                font-family: 'Julius Sans One', sans-serif;
+            }
+            /**Locations pageeeeee**/
+            
+            .galleryimages img {
+                width: 700px;
+            }
+            .locinformation {
+                float: left;
+                width: 40%;
+                margin-left: 5%;
+                border: 2px solid grey;
+                border-radius: 10px;
+                text-align: center;
+                color: antiquewhite;
+            }
+            #map {
+                margin-right: 5%;
+                width: 100%;
+                height: 100%;
+                background-color: grey;
+            }
+            .mapcontainer {
+                float: right;
+                margin-right: 8%;
+                padding: 0;
+                position: relative;
+                width: 400px;
+                height: 200px;
+            }
+            /**Styling for the location boxes*/
+            
+            .grid1 {
+                float: left;
+                border: 1px solid silver;
+                background-color: #E8E8E8;
+                width: 45%;
+                height: 25%;
+                border-radius: 50px;
+            }
+            .grid2 {
+                float: right;
+                border: 1px solid silver;
+                background-color: #E8E8E8;
+                width: 45%;
+                height: 25%;
+                border-radius: 50px;
+                margin-top: 0px;
+            }
+            .grid3 {
+                float: left;
+                border: 1px solid silver;
+                background-color: #E8E8E8;
+                width: 45%;
+                height: 25%;
+                border-radius: 50px;
+                margin-top: 5%;
+            }
+            .grid4 {
+                float: right;
+                border: 1px solid silver;
+                background-color: #E8E8E8;
+                width: 45%;
+                height: 24%;
+                border-radius: 50px;
+                margin-top: 5%;
+            }
+            .contactcontainer {
+                height: 100%;
+            }
+            .contactform {
+                width: 45%;
+                height: 300px;
+                float: left;
+                margin-left: 1%;
+            }
+            .twitter {
+                width: 45%;
+                float: right;
+                margin-right: 1%;
+                margin-top: 50px;
+            }
+        }
+        @media screen and (min-width: 1680px) {
+            /**left nav menu**/
+            
+            .nav1 {
+                position: absolute;
+                width: 200px;
+                margin-left: 25%;
+                margin-top: 5%;
+                z-index: 1;
+                color: #333A56;
+                text-align: center;
+                text-decoration: none;
+            }
+            /**right nav menu**/
+            
+            .nav2 {
+                float: right;
+                position: relative;
+                margin-right: 25%;
+                width: 250px;
+                margin-top: 5%;
+                z-index: 1;
+                color: #333A56;
+            }
+            /**Three.js wine glass canvas**/
+            
+            canvas {
+                position: relative;
+                width: 20%;
+                margin-left: 40%;
+                z-index: -1;
+            }
+            /**Menu Page**/
+            
+            .menucontainer {
+                background-color: antiquewhite;
+                border-radius: 10px;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+            }
+            .foodcontainer {
+                float: left;
+                border: 2px solid #000000;
+                border-radius: 5px;
+                width: 45%;
+                margin-top: 50px;
+                margin-left: 20px;
+            }
+            .drinkscontainer {
+                float: right;
+                border: 2px solid #000000;
+                border-radius: 5px;
+                width: 45%;
+                margin-top: 50px;
+                margin-right: 20px;
+            }
+            .overlay-content {
+                position: relative;
+                top: 5%;
+                width: 100%;
+                text-align: center;
+                margin-top: 30px;
+            }
+            .galleryimages img {
+                width: 800px;
+            }
+            .arrows img {
+                height: 40px;
+                padding: 7px;
+            }
+            .locinformation {
+                margin-left: 5%;
+                margin-top: 20px;
+                width: 40%;
+                border: 2px solid grey;
+                border-radius: 10px;
+                text-align: center;
+                color: antiquewhite;
+            }
+            #map {
+                margin-right: 5%;
+                width: 100%;
+                height: 100%;
+                background-color: grey;
+            }
+            .mapcontainer {
+                float: right;
+                margin-right: 3%;
+                padding: 0;
+                position: relative;
+                width: 680px;
+                height: 200px;
+            }
