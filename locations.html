@@ -5,6 +5,9 @@
 
     <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Tangerine" rel="stylesheet">       
     <script src="js/overlay.js"></script>
+    <script src="js/googlemap.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbtQ__aBlvmDd5-_fHNOUTnsEOO8XNNoU&callback=initMap" async defer></script>
+    
 
 </head>
     
@@ -19,13 +22,17 @@
     </h1>       
     
     
-    <div class="locationscontainer">
     
+    
+    <div class="locationscontainer" >
+        
+  
+        
             <div class ="grid1" style="cursor:pointer" onclick="openNav1()"><h1>Ipswich</h1></div>
 
     
                     <div id="loc1" class="overlay">
-                                <a href="javascript:void(0)" class="closebtn" onclick="closeNav1()">&times;</a>
+                                <a href="javascript:void(0)" id="btn" class="closebtn" onclick="closeNav1()">&times;</a>
                                     <div class="overlay-content">
                      
                                             <div class="galleryimages">
@@ -33,7 +40,7 @@
                                                     <img src="imgs/locations/ipswich/ipswich1.jpg" alt="ipswich1" id="gallery1"/>
                     
                                             </div>
-                    
+                                                                 <!--Next/back arrows for image gallery-->
                                             <div class="arrows">
                     
                                                     <img src="imgs/locations/arrowback.png" alt ="Previous" onclick="backIpswich()" />
@@ -47,9 +54,13 @@
                                         
                                             
                                             </div>
-                
-    
-                            </div>
+                                            
+                                        <!--Google map API DIV ipswich-->
+                                        <div class="mapcontainer">  <div id="map" ></div> </div>
+                                           
+                                       
+                                           
+                                    </div>
                         </div>
         
         
@@ -64,7 +75,8 @@
                                                     <img src="imgs/locations/colchester/colchester1.jpeg" alt="colchester1" id="gallery2"/>
                     
                                              </div>
-                    
+                                             <!--Next/back arrows for image gallery-->
+
                                              <div class="arrows">
                     
                                                     <img src="imgs/locations/arrowback.png" alt ="Previous" onclick="backColchester()" />
@@ -78,6 +90,9 @@
                                         
                                             
                                             </div>
+                                        <!--Google map API DIV colchester-->
+
+                                    <div class="mapcontainer"> <div id="map2" ></div> </div>
     
                         </div>
                      </div>
@@ -92,7 +107,7 @@
                                     <img src="imgs/locations/leicester/leicester1.jpeg" alt="leicester1" id="gallery3"/>
                     
                                 </div>
-                    
+                                                                 <!--Next/back arrows for image gallery-->
                                 <div class="arrows">
                     
                                     <img src="imgs/locations/arrowback.png" alt ="Previous" onclick="backLeicester()" />
@@ -106,7 +121,10 @@
                                         
                                             
                                  </div>
-    
+                                        <!--Google map API DIV leicester-->
+
+                            <div class="mapcontainer"> <div id="map3" ></div> </div>
+                            
                         </div>
                 </div>
                
@@ -121,7 +139,7 @@
                                     <img src="imgs/locations/london/london1.jpeg" alt="london1" id="gallery4"/>
                     
                                 </div>
-                    
+                                                                 <!--Next/back arrows for image gallery-->
                                 <div class="arrows">
                                      
                                     <img src="imgs/locations/arrowback.png" alt ="Previous" onclick="backLondon()" />
@@ -130,24 +148,38 @@
                                 </div> 
                             
                                 <div class="locinformation">
-                                        
-                                            <p>123 Fake Street<br>London<br>Near Leicester Square<br>WC2H 123<br>0123456789</p>
-                                        
-                                            
+                                            <p>123 Fake Street<br>London<br>Near Leicester Square<br>WC2H 123<br>0123456789</p>                                                                     
                                  </div>
-                    
+                                                        
+                                     <!--Google map API DIV london-->
+
+                            <div class="mapcontainer"> <div id="map4" ></div> </div>
+
     
                         </div>
                 </div>
         
 
-        
+                                       
     
     </div>
     <div class="locationsfooter">
     *Click the locations for more info
     
     </div> 
+    
+    
+    <!–– GOOGLE MAPS API JS CODE––> 
+    
+                                        
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     

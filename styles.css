@@ -86,7 +86,7 @@ margin: 0 auto;
 
 }
 
- .nav2 li {
+.nav2 li {
         display: inline;
     }
     
@@ -297,7 +297,7 @@ canvas{
 }
     
 .locinformation{
-    margin:0 auto;
+    margin: auto;
     margin-top:20px;
     width:50%;
     border: 2px solid grey;
@@ -335,6 +335,44 @@ canvas{
   }
 }
 
+/** Google maps**/
+#map{
+    
+    margin-right: 5%;
+    width:100%;
+    height:100%;
+    background-color: grey;
+    } 
+#map2{
+    margin-right: 5%;
+    width:100%;
+    height:100%;
+    background-color: grey;
+    } 
+    
+#map3{
+    margin-right: 5%;
+    width:100%;
+    height:100%;
+    background-color: grey;
+    }
+    
+#map4{
+    margin-right: 5%;
+    width:100%;
+    height:100%;
+    background-color: grey;
+    }
+    
+.mapcontainer {
+    margin: auto;
+    padding: 2%;
+    position: relative;
+    width:400px;
+    height:200px;
+        
+    }
+    
 /**Styling for the location boxes*/
 
 .grid1{
@@ -519,7 +557,7 @@ canvas{
 }
     
 .locinformation{
-    margin:0 auto;
+    float: left;
     margin-top:20px;
     width:50%;
     border: 2px solid grey;
@@ -528,6 +566,21 @@ canvas{
     color:antiquewhite;
  }
 
+#map{
+    margin-right: 5%;
+    width:100%;
+    height:100%;
+    background-color: grey;
+    } 
+.mapcontainer{
+    float:right;
+    margin-right: 3%;
+    padding: 0;
+    position: relative;
+    width:280px;
+    height:200px;
+        
+    }
 
 
 
@@ -656,13 +709,31 @@ canvas{
     
 
 .locinformation{
-    margin:0 auto;
+    float:left;
     width:40%;
+    margin-left:5%;
     border: 2px solid grey;
     border-radius: 10px;
     text-align: center;
     color:antiquewhite;
  }
+    
+#map{
+    margin-right: 5%;
+    width:100%;
+    height:100%;
+    background-color: grey;
+    } 
+
+.mapcontainer{
+    float:right;
+    margin-right: 8%;
+    padding: 0;
+    position: relative;
+    width:400px;
+    height:200px;
+        
+    }
 
 
 
@@ -801,7 +872,7 @@ canvas{
 }
 
 .galleryimages img{
-    width:1000px;
+    width:800px;
     
 }
 
@@ -811,12 +882,28 @@ canvas{
 }
     
 .locinformation{
-    margin:0 auto;
+    margin-left:5%;
     margin-top:20px;
-    width:50%;
+    width:40%;
     border: 2px solid grey;
     border-radius: 10px;
     text-align: center;
     color:antiquewhite;
  }
+    
+#map{
+    margin-right: 5%;
+    width:100%;
+    height:100%;
+    background-color: grey;
+    } 
+.mapcontainer{
+    float:right;
+    margin-right: 3%;
+    padding: 0;
+    position: relative;
+    width:680px;
+    height:200px;
+        
+    }
 

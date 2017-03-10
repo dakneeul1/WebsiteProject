@@ -1,5 +1,6 @@
 function openNav1() {
     document.getElementById("loc1").style.width = "100%";
+ 
 }
 
 function openNav2() {
