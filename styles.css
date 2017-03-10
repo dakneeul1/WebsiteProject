@@ -1,4 +1,4 @@
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 1px) {
 
 body{
     	position: relative;
@@ -38,6 +38,118 @@ h3{
     padding: 20px;
 }
 
+   
+.navigation ul {
+	height:40px; 
+	padding:0 10px 0 0;
+	border-radius:4px;
+    width: 100%;
+    margin: auto;
+	
+}
+    
+.navigation ul li {
+	float:left;
+    margin-left: 5%;
+	list-style:none;		 
+	padding:10px 20px 10px 20px;
+    
+}
+
+
+.hidden {
+	display:none;
+}
+
+.mini-navigation {
+	border-left:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	border-right:1px solid #ccc;
+	padding:0 0 0 0;
+	margin-left:5px;
+	margin-right:5px;
+	border-radius:0 0 8px 8px;
+}
+.mini-navigation ul {
+	padding:0 0 0 0;
+	margin:0 0 0 0;
+}
+.mini-navigation ul li {
+	margin:0 0 0 0;
+	padding:10px 18px 12px 23px;
+	list-style:none;
+	border-bottom:1px solid #ebebeb;
+}
+
+.mini-navigation ul li a {
+	text-decoration:none;
+	font-size:12px;
+	color:#1e7759;
+}
+
+
+@media (max-width: 796px) {
+	 .navigation.responsive ul li {
+		display:none;
+
+    }
+	 .navigation.responsive ul li.hidden {
+		display:block;
+
+	 }
+	 .navigation.responsive ul li.hidden:hover {
+		border-radius:4px 0 0 4px;
+	 }
+	 .navigation.responsive ul li.hidden a{
+		background:url('menu.png')no-repeat 0 -5px;
+		padding-left:24px;
+	}
+	
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 /**left nav menu*****************************/
 
 .nav1{
@@ -158,7 +270,7 @@ canvas{
 
 
 
-/**Menu Page************************************************************/
+/**Menu Page****/
 .menucontainer{
     background-color: antiquewhite;
     border-radius:10px;
@@ -223,7 +335,7 @@ canvas{
 }
 
 
-/**makes the food item description visibile when hovered***************************/
+/**makes the food item description visibile when hovered**/
 .fooditem:hover + .fooddesc {
     font-family: 'Julius Sans One', sans-serif;
     display:block;
@@ -236,7 +348,7 @@ canvas{
    
 
   
-    /* needed styles for the overlay ******************************/
+    /* needed styles for the overlay ***/
     z-index: 10; /* keep on top of other elements on the page */
     box-shadow: 0 0 0 9999px rgba(0,0,0,0.5);
 }
@@ -247,7 +359,7 @@ canvas{
 
 }
 
-/**Locations pageeeeee*************************************/
+/**Locations page***/
 
 .locationscontainer{
     margin-left: auto;
@@ -564,7 +676,6 @@ canvas{
     border: 2px solid #000000;
     border-radius: 5px;
     width:80%;
-    height:80%;
     margin-top:50px;
     margin-left:20px;
     
