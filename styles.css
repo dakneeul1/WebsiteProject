@@ -433,26 +433,70 @@ canvas{
     text-align: center;
 }
 
+/**Contact us css*/
 
- /*********image slider************/   
-  
+.contactcontainer{
+    background-color: antiquewhite;
+    border-radius:10px;
+    margin-left: auto;
+    margin-right:auto;
+    width:90%;
+}
+
+.contactcontainer p{
+        text-align: center;
+        font-family: 'Julius Sans One', sans-serif;
+
+    }
+
+
+.contactform{
+    font-family: 'Julius Sans One', sans-serif;
+    width: 80%;
+    padding: 30px;
+    margin: 50px auto;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+    -webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);
+    text-align: center;
+
+}
+
+.contactform input[type="text"],
+.contactform input[type="email"],
+.contactform textarea
+{
     
-    
-    
-    
-    
-    
-    
-    
+    outline: none;
+    display: block;
+    width: 90%;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    font-family: 'Julius Sans One', sans-serif;
+    height: 45px;
 }
 
 
+.contactform input[type="button"]{
+    background-color:darkgray;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 14px;
+    
+    padding: 8px 18px;
+    text-decoration: none;
+    text-transform: uppercase;
 
-
-
-
-
-
+}
+    
+.twitter{
+        width:80%;
+        height: 300px;
+        margin: auto;
+}
 
 
 
@@ -782,8 +826,23 @@ canvas{
     margin-top:5%;
 
 }
-
-
+    .contactcontainer{
+        height:100%;
+    }
+    
+    .contactform{
+        width:45%;
+        height: 300px;
+        float:left;
+        margin-left: 1%;
+    }
+    
+    .twitter{
+        width:45%;
+        float: right;
+        margin-right: 1%;
+        margin-top:50px;
+    }
     
     
 }
